@@ -1,14 +1,18 @@
-body
+
+/** missing an open parenthesis**/
+body{
   font-size: 14px;
 }
 
+
+/** missing a closed parenthesis **/
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -29,8 +33,15 @@ h3 {
   font-size: 1.3em;
 }
 
+/** missing a closed parenthesis **/
 .element {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+
+/** for the last elements as described in the instructions **/
+#last {
+  background-color: blue;
+}
